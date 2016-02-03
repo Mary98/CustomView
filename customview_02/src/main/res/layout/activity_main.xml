@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:mary="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+            <TextView android:text="@string/hello_world"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.mary.customview_02.widget.CustomImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                mary:image2="@mipmap/ic_launcher"
+                mary:imageScaleType2="center"
+                mary:titleText2="hello andorid ! "
+                mary:titleTextColor2="#ff0000"
+                mary:titleTextSize2="30sp" />
+
+            <com.mary.customview_02.widget.CustomImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                mary:image2="@mipmap/ic_launcher"
+                mary:imageScaleType2="center"
+                mary:titleText2="helloworldwelcome"
+                mary:titleTextColor2="#00ff00"
+                mary:titleTextSize2="20sp" />
+
+            <com.mary.customview_02.widget.CustomImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                mary:image2="@mipmap/ic_launcher"
+                mary:imageScaleType2="center"
+                mary:titleText2="测试~"
+                mary:titleTextColor2="#ff0000"
+                mary:titleTextSize2="12sp" />
+
+
+</LinearLayout>
